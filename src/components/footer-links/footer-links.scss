@@ -1,0 +1,39 @@
+.footer-links {
+  color: #fff;
+  div {
+    display: inline-block;
+    margin-left: 100px;
+
+    h4 {
+      color: #000;  
+    }
+
+    .link {
+      display: block;
+      text-transform: capitalize;
+      text-decoration: none;
+
+      color: #000;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Responsive
+
+@media screen and (max-width: 460px) {
+  .footer-links {
+    div{
+      display: block;
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
+
+    .link {
+      font-size: 12px;
+    }
+  }
+}

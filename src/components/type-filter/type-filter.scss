@@ -1,0 +1,114 @@
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.type-filter {
+  display: flex;
+  gap: 0 30px;
+
+  > .type-filter__label {
+    cursor: pointer;
+  }
+
+  .type-filter__styled-radio {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+
+    color: #9a9a9a;
+  }
+}
+
+.type-filter__radio:checked + .type-filter__styled-radio {
+  text-decoration: underline;
+  color: #3d3d3d;
+}
+
+// Responsive 
+
+@media screen and (max-width: 1200px) {
+  .type-filter {
+  
+    .type-filter__styled-radio {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .type-filter {
+  
+    .type-filter__styled-radio {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .type-filter {
+  
+    .type-filter__styled-radio {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 14px;
+      }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .type-filter {
+  
+    .type-filter__styled-radio {
+      font-size: 6px;
+      font-weight: 400;
+      line-height: 10px;
+      }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .type-filter {
+    gap: 0 18px;
+  
+    .type-filter__styled-radio {
+      font-size: 6px;
+      font-weight: 400;
+      line-height: 8px;
+      }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .type-filter {
+    gap: 0 10px;
+    
+    .type-filter__styled-radio {
+      font-size: 6px;
+      font-weight: 400;
+      line-height: 6px;
+      }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .type-filter {
+    display: none;
+    gap: 0 10px;
+  
+    .type-filter__styled-radio {
+      font-size: 6px;
+      font-weight: 400;
+      line-height: 6px;
+      }
+  }
+}

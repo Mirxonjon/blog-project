@@ -1,0 +1,1 @@
+export const types = ["Design Theory", "UX", "UI", "Typography"];

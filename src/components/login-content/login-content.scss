@@ -1,0 +1,112 @@
+.login-form {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  padding-top: 316px;
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+
+    margin-bottom: 56px;  
+
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .login-input__email {
+    font-size: 12px;
+    font-weight: 400;
+
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    
+    padding: 12px 14px;
+
+    background-color: #F4F4F4;
+
+    outline: none;
+
+    border: none;
+    border-radius: 3px;
+  }
+
+  .login-input__password {
+    font-size: 12px;
+    font-weight: 400;
+
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+
+    padding: 12px 14px;
+
+    background-color: #F4F4F4;
+
+    outline: none;
+
+    border: none;
+    border-radius: 3px;
+  }
+
+  .login-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+
+    width: 100%;
+    padding: 11px;
+
+    border: none;
+    border-radius: 3px;
+
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+  }
+}
+
+// Responsive 
+
+@media screen and (max-width: 400px) {
+  .login-form {
+    width: 200px;
+
+    h1 {
+      font-size: 30px;
+    }
+    .login-input__email {
+      font-size: 8px;
+    }
+    .login-input__password {
+      font-size: 8px;
+    }
+
+    .login-btn {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .login-form {
+    width: 150px;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .login-input__email {
+      font-size: 6px;
+    }
+
+    .login-input__password{
+      font-size: 6px;
+    }
+    .login-btn {
+      font-size: 10px;
+    }
+  }
+}

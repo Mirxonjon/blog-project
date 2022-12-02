@@ -1,0 +1,47 @@
+.likes-shares__wrapper {
+  margin-top: 46px;
+  width: 26px;
+
+  span {
+    display: block; 
+    cursor: pointer;
+    color: #777;
+
+    &:hover {
+      color: #000;
+    }
+  }
+  span:first-child {
+    margin-bottom: 46px;
+  }
+}
+
+// Responsive
+
+@media screen and (max-width: 850px) {
+  .likes-shares__wrapper {
+    span {
+      font-size: 14px;
+    }
+  }
+} 
+
+@media screen and (max-width: 650px) {
+  .likes-shares__wrapper {
+    span {
+      font-size: 12px;
+    }
+  }
+} 
+
+@media screen and (max-width: 550px) {
+  .likes-shares__wrapper {
+    margin-right: 10px;
+  }
+} 
+
+@media screen and (max-width: 460px) {
+  .likes-shares__wrapper {
+    display: none;
+  }
+} 

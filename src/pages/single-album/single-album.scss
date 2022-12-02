@@ -1,0 +1,133 @@
+  .main-right {
+    .single-album__img {
+      width: 736px;
+      margin: 50px 0;
+    }
+
+    .single-album__description {
+      width: 736px;
+      margin-bottom: 100px;
+    }
+  }
+
+  // Responsive 
+
+  @media screen and (max-width: 1200px) {
+    .main-right {
+      .single-album__img {
+        width: 650px;
+        margin: 45px 0;
+      }
+  
+      .single-album__description {
+        font-size: 16px;
+        width: 650px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .main-right {
+      .single-album__img {
+        width: 550px;
+        margin: 40px 0;
+      }
+  
+      .single-album__description {
+        width: 550px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .main-right {
+      .single-album__img {
+        width: 500px;
+        margin: 35px 0;
+      }
+  
+      .single-album__description {
+        font-size: 14px;
+        width: 500px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .main-right {
+      .single-album__img {
+        width: 400px;
+        margin: 30px 0;
+      }
+  
+      .single-album__description {
+        font-size: 12px;
+        width: 400px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .main-right {
+      .single-album__img {
+        width: 300px;
+        margin: 25px 0;
+      }
+  
+      .single-album__description {
+        width: 300px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .main-right {
+      .single-album__img {
+        width: 250px;
+        margin: 20px 0;
+      }
+  
+      .single-album__description {
+        width: 250px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .main-right {
+      .single-album__img {
+        width: 200px;
+        margin: 20px 0;
+      }
+  
+      .single-album__description {
+        width: 200px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    .main-right {
+      .single-album__img {
+        width: 170px;
+        margin: 20px 0;
+      }
+      
+      .single-album__description {
+        width: 170px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    .main-right {
+      .single-album__img {
+        width: 150px;
+        margin: 20px 0;
+      }
+  
+      .single-album__description {
+        width: 150px;
+      }
+    }
+  }

@@ -1,0 +1,147 @@
+.not-found {
+  width: 100%;
+  max-width: 610px;
+  padding: 0 5px;
+  padding-top: 70px;
+  display: block;
+  margin: 0 auto;
+
+  .not-found__img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 300;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+  }
+
+  .not-found__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Responsive
+
+@media screen and (max-width: 1000px) {
+  .not-found {
+    padding: 0 5px;
+    padding-top: 70px;
+  
+    .not-found__img {
+      width: 400px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .not-found {
+    padding: 0 5px;
+    padding-top: 70px;
+  
+    .not-found__img {
+      width: 300px;
+      margin-bottom: 50px;
+    }
+
+    h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    p{
+      font-size: 12px;
+      margin-bottom: 40px;
+    }
+  
+    .not-found__link {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .not-found {
+    padding: 0 5px;
+    padding-top: 70px;
+  
+    .not-found__img {
+      width: 200px;
+      margin-bottom: 50px;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    p{
+      font-size: 8px;
+      margin-bottom: 40px;
+    }
+  
+    .not-found__link {
+      font-size: 8px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .not-found {
+  
+    .not-found__img {
+      width: 150px;
+      margin-bottom: 50px;
+    }
+
+    h4 {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+  
+    p{
+      font-size: 6px;
+      margin-bottom: 40px;
+    }
+  
+    .not-found__link {
+      font-size: 6px;
+      font-weight: 400;
+    }
+  }
+}

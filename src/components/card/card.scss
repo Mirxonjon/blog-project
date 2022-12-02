@@ -1,0 +1,225 @@
+.card {
+  width: 736px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-top: 46px;
+
+    time {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+
+      color: #777;
+    } 
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+
+      color: #777;
+    }
+  }
+
+  .card-title {
+    display: block;
+
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #777;
+
+    padding-bottom: 22px;
+
+    text-decoration: none;
+    text-transform: capitalize;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .card-duration {
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+    color: #777;
+
+    .clock-icon {
+      margin-right: 10px;
+    }
+  }
+
+  hr {
+    margin-top: 17px;
+  }
+}
+
+// Responsive 
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: 500px;
+  
+    div {
+      padding-bottom: 15px;
+      margin-top: 35px;
+  
+      time {
+        font-size: 10px;
+        font-weight: 400;
+      } 
+  
+      p {
+        font-size: 10px;
+        font-weight: 400;
+      }
+    }
+  
+    .card-title {
+      font-size: 15px;
+      font-weight: 400;
+  
+      padding-bottom: 18px;
+    }
+  
+    .card-duration {
+      font-size: 10px;
+      font-weight: 400;
+  
+      .clock-icon {
+        margin-right: 8px;
+      }
+    }
+  
+    hr {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 400px;
+
+    div {
+      padding-bottom: 10px;
+      margin-top: 30px;
+  
+      time {
+        font-size: 8px;
+        font-weight: 400;
+      } 
+  
+      p {
+        font-size: 8px;
+        font-weight: 400;
+      }
+    }
+  
+    .card-title {
+      font-size: 12px;
+      font-weight: 400;
+  
+      padding-bottom: 10px;
+    }
+  
+    .card-duration {
+      font-size: 8px;
+      font-weight: 400;
+  
+      .clock-icon {
+        margin-right: 6px;
+      }
+    }
+  
+    hr {
+      margin-top: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    width: 250px;
+
+    div {
+      padding-bottom: 20px;
+      margin-top: 30px;
+  
+      time {
+        font-size: 8px;
+        font-weight: 400;
+      } 
+  
+      p {
+        font-size: 8px;
+        font-weight: 400;
+      }
+    }
+  
+    .card-title {
+      font-size: 16px;
+      font-weight: 400;
+  
+      padding-bottom: 10px;
+    }
+  
+    .card-duration {
+      font-size: 8px;
+      font-weight: 400;
+  
+      .clock-icon {
+        margin-right: 6px;
+      }
+    }
+  
+    hr {
+      margin-top: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .card {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .card {
+    width: 150px;
+  }
+}
