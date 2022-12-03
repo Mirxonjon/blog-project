@@ -55,6 +55,8 @@ const LoginContent = () => {
         Submit
       </button>
       <span style={{ color: "red" }}>{error}</span>
+      <p> Email : eve.holt@reqres.in</p>
+      <p> password : cityslicka</p>
     </form>
   );
 };
